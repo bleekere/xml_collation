@@ -157,8 +157,8 @@ def handle_element_token(extended_token, latest, newdoc, token):
 
 if __name__ == '__main__':
     # convert XML files into tokens
-    tokens1 = convert_xml_file_into_tokens("../xml_source_transcriptions/ts-fol-test-small.xml")
-    tokens2 = convert_xml_file_into_tokens("../xml_source_transcriptions/tsq-test-small.xml")
+    tokens1 = convert_xml_file_into_tokens("../xml_collation/mini-witness-a.xml")
+    tokens2 = convert_xml_file_into_tokens("../xml_collation/mini-witness-b.xml")
 
     print(tokens1)
     print(tokens2)
